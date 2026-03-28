@@ -36,11 +36,14 @@ Follow these steps to set up the project on your local machine:
   - **LAMP**: `/var/www/html/`
 
 ### 3. Create Database
+### 3. Create Database
 - Open phpMyAdmin: `http://localhost/phpmyadmin`
 - Create a new database named `vpmsdb`.
 - Import the SQL file:
   - Click on the `vpmsdb` database.
   - Go to the **Import** tab.
+  - Choose the file `vpmsdb.sql` from the project folder.
+  - Click **Go**.
 
 ## 4. Run the Application
 Open your browser and go to: http://localhost/vpms/
@@ -52,12 +55,4 @@ Open your browser and go to: http://localhost/vpms/
 * `tblvehicle` : Parking records with in/out times
 
 
-# Happy Parking Management! 🚗💨
-
-
-
-
-
-
-  - Choose the file `vpmsdb.sql` from the project folder.
-  - Click **Go**.
+## Happy Parking Management! 🚗💨
